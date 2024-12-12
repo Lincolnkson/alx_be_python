@@ -29,3 +29,19 @@
                     time with a value of 3 (representing 3 years).
                     Calculate the simple interest using the formula provided and store the result in a variable named interest.
                     Print the calculated interest in a format: The simple interest is: [interest].
+
+2. Calculate the Area of a Rectangle
+
+          Task Description:
+
+                    For this task, you are to write a Python script that calculates the area of a rectangle. The area of a rectangle is found by multiplying its length by its width.
+
+                    Instructions:
+
+                    Create a file named rectangle_area.py.
+                    Define two variables in this file:
+                    length with a value representing the length of the rectangle.
+                    width with a value representing the width of the rectangle.
+                    For simplicity, let’s use length = 10 and width = 5.
+                    Calculate the area of the rectangle using the formula (Area = length × width) and store the result in a variable named area.
+                    Print the calculated area in a format: The area of the rectangle is: [area].
