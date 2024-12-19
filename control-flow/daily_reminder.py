@@ -22,4 +22,5 @@ else:
 
 # Combine messages and print the reminder
 reminder = priority_message + time_message
-print(f"\nReminder:", reminder)
+
+print(f"Reminder:", reminder)
