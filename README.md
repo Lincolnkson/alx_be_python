@@ -110,3 +110,5 @@ Week 4
 1. Simple Calculator with Match Case
 
 2. Multiplication Table Generator
+
+3. Drawing Patterns with Nested Loops
