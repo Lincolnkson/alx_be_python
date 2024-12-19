@@ -108,3 +108,5 @@ Week 4
 0. Weather Recommendation Program
 
 1. Simple Calculator with Match Case
+
+2. Multiplication Table Generator
