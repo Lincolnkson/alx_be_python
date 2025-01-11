@@ -116,4 +116,5 @@ Week 4
                     4. Personal Daily Reminder
 
 Week 5
-                    0. Arithmetic Operations Function.
+                    0. Arithmetic Operations Function
+                    1. Shopping List Manager
