@@ -123,3 +123,4 @@ Week 5
 
 Week 6
                     0. Create a Simple Bank Account Class
+                    1. Robust Division Calculator with Command Line Arguments
