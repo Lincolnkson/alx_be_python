@@ -120,3 +120,6 @@ Week 5
                     1. Shopping List Manager
                     2. Explore `datetime` Module
                     3. Temperature Conversion Tool
+
+Week 6
+                    0. Create a Simple Bank Account Class
