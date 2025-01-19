@@ -3,13 +3,27 @@ import unittest
 from simple_calculator import SimpleCalculator
 
 class Test_SimpleCalculator(unittest.TestCase):
-          def test_all(self):
-              calc = SimpleCalculator()
-              self.assertEqual(calc.add(1, 1), 2)
-              self.assertEqual(calc.subtract(1, 1), 0)
-              self.assertEqual(calc.multiply(1, 1), 1)
-              self.assertEqual(calc.divide(1, 1), 1)
-              self.assertIsNone(calc.divide(1, 0))
+    def setUp(self):
+        """Set up the SimpleCalculator instance before each test."""
+        self.calc = SimpleCalculator()
+
+        def test_add(self):
+          """Test the addition method."""
+          self.assertEqual(self.calc.add(1, 1), 2)
+          self.assertEqual(self.calc.add(-1, 1), 0)
+                    
+        def test_subtract(self):
+          """Test the subtract method."""
+          self.assertEqual(self.calc.subtract(1, 1), 0)
+
+        def test_multiply(self):
+          """Test the multiply method."""
+          self.assertEqual(self.calc.multiply(1, 1), 1)
+
+        def test_divide(self):
+          """Test the divide method."""
+          self.assertEqual(self.calc.divide(1, 1), 1)
+          self.assertIsNone(self.calc.divide(1, 0))
 
 
 if __name__ == "__main__":
