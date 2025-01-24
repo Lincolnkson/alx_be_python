@@ -40,14 +40,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-"""""
-Pride and Prejudice Jane Austen
-Snow Crash Neal Stephenson
-The Catcher in the Rye J.D. Salinger
-
-----Expected
-Book: Pride and Prejudice by Jane Austen
-EBook: Snow Crash by Neal Stephenson, File Size: 500KB
-PrintBook: The Catcher in the Rye by J.D. Salinger, Page Count: 234
-"""""

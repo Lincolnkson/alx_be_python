@@ -3,7 +3,8 @@ class Book:
                   assert isinstance(title, str), "Title must be a string"
                   self.title = title
                   self.author = author
-                
+          def __str__(self):
+                  return f"{self.title} by {self.author}"      
 class EBook(Book):
           def __init__(self, title : str, author: str, size: int):
                   super().__init__(title, author)

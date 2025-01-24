@@ -129,3 +129,4 @@ Week 6
 Week 7
 
                     0. Dive into Python Magic Methods
+                    1. Mastering Inheritance and Composition in Python
