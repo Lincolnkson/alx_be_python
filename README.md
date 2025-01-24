@@ -131,3 +131,4 @@ Week 7
                     0. Dive into Python Magic Methods
                     1. Mastering Inheritance and Composition in Python
                     2. Exploring Polymorphism and Method Overriding
+                    3. Distinguishing Between Class Methods and Static Methods
