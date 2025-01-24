@@ -4,17 +4,20 @@ class Book:
                   self.title = title
                   self.author = author
           def __str__(self):
-                  return f"{self.title} by {self.author}"      
+                  return f"Book: '{self.title} by {self.author}'"      
 class EBook(Book):
           def __init__(self, title : str, author: str, file_size: int):
                   super().__init__(title, author)
                   self.file_size = file_size
-
+          def __str__(self):
+                  return f"Book: '{self.title} by {self.author}, File Size: {self.file_size}KB'" 
+          
 class PrintBook(Book):
           def __init__(self, title : str, author: str, page_count: int):
                   super().__init__(title, author)
                   self.page_count = page_count
-
+          def __str__(self):
+                  return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
 """""
 Composition - Library:
 
@@ -35,7 +38,17 @@ class Library:
                           print(book.title, book.author)
 
 """""
+Pride and Prejudice Jane Austen
+Snow Crash Neal Stephenson
+The Catcher in the Rye J.D. Salinger
+
+(96 chars long)
+[stderr]: 
+(0 chars long)
+[Expected]
+
 Book: Pride and Prejudice by Jane Austen
 EBook: Snow Crash by Neal Stephenson, File Size: 500KB
 PrintBook: The Catcher in the Rye by J.D. Salinger, Page Count: 234
+
 """""
