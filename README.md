@@ -126,3 +126,6 @@ Week 6
                     1. Robust Division Calculator with Command Line Arguments
                     2. Writing Unit Tests for a Simple Calculator Class
                     3. Implementing Basic OOP for a Library Management System
+Week 7
+
+                    0. Dive into Python Magic Methods
